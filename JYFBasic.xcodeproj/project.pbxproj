@@ -16,6 +16,7 @@
 		011270FA20410CEA002E7531 /* JYFBasic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011270F320410CEA002E7531 /* JYFBasic.framework */; };
 		011270FB20410CEA002E7531 /* JYFBasic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 011270F320410CEA002E7531 /* JYFBasic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0112710120410D19002E7531 /* JYFBasic.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0112710020410D19002E7531 /* JYFBasic.podspec */; };
+		8B8F90E3DC27BCDDAE7F66C9 /* Pods_JYFBasicDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B7BB6C4BC04C4C26D63215 /* Pods_JYFBasicDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,9 @@
 		011270F520410CEA002E7531 /* JYFBasic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYFBasic.h; sourceTree = "<group>"; };
 		011270F620410CEA002E7531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0112710020410D19002E7531 /* JYFBasic.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JYFBasic.podspec; sourceTree = "<group>"; };
+		1EE1670DD6D1A44757AC73B4 /* Pods-JYFBasicDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYFBasicDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYFBasicDemo/Pods-JYFBasicDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C360E42213D9B24D15967FA4 /* Pods-JYFBasicDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYFBasicDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JYFBasicDemo/Pods-JYFBasicDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D6B7BB6C4BC04C4C26D63215 /* Pods_JYFBasicDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYFBasicDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				011270FA20410CEA002E7531 /* JYFBasic.framework in Frameworks */,
+				8B8F90E3DC27BCDDAE7F66C9 /* Pods_JYFBasicDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +87,8 @@
 				0111C3BE2040FB4E0051F223 /* JYFBasicDemo */,
 				011270F420410CEA002E7531 /* JYFBasic */,
 				0111C3BD2040FB4E0051F223 /* Products */,
+				C6B75D7CC4365FD8534E1C3A /* Pods */,
+				07352D2BE41548D040E85754 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,6 +123,23 @@
 			path = JYFBasic;
 			sourceTree = "<group>";
 		};
+		07352D2BE41548D040E85754 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6B7BB6C4BC04C4C26D63215 /* Pods_JYFBasicDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6B75D7CC4365FD8534E1C3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C360E42213D9B24D15967FA4 /* Pods-JYFBasicDemo.debug.xcconfig */,
+				1EE1670DD6D1A44757AC73B4 /* Pods-JYFBasicDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -134,10 +158,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0111C3CE2040FB4E0051F223 /* Build configuration list for PBXNativeTarget "JYFBasicDemo" */;
 			buildPhases = (
+				10DF76DA5CBA00CE8CB4AB18 /* [CP] Check Pods Manifest.lock */,
 				0111C3B82040FB4E0051F223 /* Sources */,
 				0111C3B92040FB4E0051F223 /* Frameworks */,
 				0111C3BA2040FB4E0051F223 /* Resources */,
 				011270FF20410CEA002E7531 /* Embed Frameworks */,
+				D95820511DA8DE13150BEB63 /* [CP] Embed Pods Frameworks */,
+				49E79BA825A79950E141DF32 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -226,6 +253,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10DF76DA5CBA00CE8CB4AB18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JYFBasicDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49E79BA825A79950E141DF32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JYFBasicDemo/Pods-JYFBasicDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D95820511DA8DE13150BEB63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JYFBasicDemo/Pods-JYFBasicDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0111C3B82040FB4E0051F223 /* Sources */ = {
@@ -383,6 +461,7 @@
 		};
 		0111C3CF2040FB4E0051F223 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C360E42213D9B24D15967FA4 /* Pods-JYFBasicDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -398,6 +477,7 @@
 		};
 		0111C3D02040FB4E0051F223 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EE1670DD6D1A44757AC73B4 /* Pods-JYFBasicDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
