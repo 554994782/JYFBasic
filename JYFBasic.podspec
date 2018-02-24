@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/554994782/JYFBasic.git", :branch => "develop" }
 
-  s.source_files="JYFBasic/*.swift"
+s.source_files="JYFBasic/*.{h,swift,c,m}"
   s.public_header_files="JYFBasic/JYFBasic.h"
 
   s.subspec "SwiftyBeaver" do |ss|

@@ -304,9 +304,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JYFBasicDemo/Pods-JYFBasicDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/JYFBasic/JYFBasic.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JYFBasic.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
