@@ -48,11 +48,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5EC6B4CECE918F0ED7D713EDC3A24980 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC23B9A7C018B5A8235269141A292A4B /* JYFBasic */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5EC6B4CECE918F0ED7D713EDC3A24980 /* Pods */,
 				3527B39E8AA6D3608E1EC522D916D707 /* Products */,
 				F711F776E257ED3EED6ABAC1D2E7EDAB /* Targets Support Files */,
 			);
@@ -82,6 +91,14 @@
 			);
 			name = "Pods-JYFBasicDemo";
 			path = "Target Support Files/Pods-JYFBasicDemo";
+			sourceTree = "<group>";
+		};
+		CC23B9A7C018B5A8235269141A292A4B /* JYFBasic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = JYFBasic;
+			path = JYFBasic;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {

@@ -1,3 +1,24 @@
-PODFILE CHECKSUM: a5445ba29edb7a16ef5ecb9b78a29ca0fcb44897
+PODS:
+  - JYFBasic (0.0.1):
+    - JYFBasic/SwiftyBeaver (= 0.0.1)
+  - JYFBasic/SwiftyBeaver (0.0.1)
+
+DEPENDENCIES:
+  - JYFBasic (from `https://github.com/554994782/JYFBasic.git`, branch `develop`)
+
+EXTERNAL SOURCES:
+  JYFBasic:
+    :branch: develop
+    :git: https://github.com/554994782/JYFBasic.git
+
+CHECKOUT OPTIONS:
+  JYFBasic:
+    :commit: 04d608da1505512a156ec9acb63795bcca37a859
+    :git: https://github.com/554994782/JYFBasic.git
+
+SPEC CHECKSUMS:
+  JYFBasic: d02498c5fc5a96f3248220cc2a340d7807795b41
+
+PODFILE CHECKSUM: 2db01848a9c1326d0f96e5ba5ab3c9c04836588e
 
 COCOAPODS: 1.4.0

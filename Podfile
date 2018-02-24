@@ -7,7 +7,7 @@ inhibit_all_warnings!
 
 target 'JYFBasicDemo’ do
     use_frameworks!
-    #pod 'JYFBasic', :git => 'https://github.com/554994782/JYFBasic.git', :branch => ‘develop’
+    pod 'JYFBasic', :git => 'https://github.com/554994782/JYFBasic.git', :branch => ‘develop’
 
 end
 
