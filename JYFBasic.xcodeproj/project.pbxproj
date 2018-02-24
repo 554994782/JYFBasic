@@ -12,20 +12,60 @@
 		0111C3C52040FB4E0051F223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0111C3C32040FB4E0051F223 /* Main.storyboard */; };
 		0111C3C72040FB4E0051F223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0111C3C62040FB4E0051F223 /* Assets.xcassets */; };
 		0111C3CA2040FB4E0051F223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0111C3C82040FB4E0051F223 /* LaunchScreen.storyboard */; };
+		011270F720410CEA002E7531 /* JYFBasic.h in Headers */ = {isa = PBXBuildFile; fileRef = 011270F520410CEA002E7531 /* JYFBasic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		011270FA20410CEA002E7531 /* JYFBasic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 011270F320410CEA002E7531 /* JYFBasic.framework */; };
+		011270FB20410CEA002E7531 /* JYFBasic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 011270F320410CEA002E7531 /* JYFBasic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0112710120410D19002E7531 /* JYFBasic.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0112710020410D19002E7531 /* JYFBasic.podspec */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		011270F820410CEA002E7531 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0111C3B42040FB4E0051F223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 011270F220410CEA002E7531;
+			remoteInfo = JYFBasic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		011270FF20410CEA002E7531 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				011270FB20410CEA002E7531 /* JYFBasic.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		0111C3BC2040FB4E0051F223 /* JYFBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYFBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0111C3BC2040FB4E0051F223 /* JYFBasicDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYFBasicDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0111C3BF2040FB4E0051F223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0111C3C12040FB4E0051F223 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0111C3C42040FB4E0051F223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0111C3C62040FB4E0051F223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0111C3C92040FB4E0051F223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0111C3CB2040FB4E0051F223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		011270F320410CEA002E7531 /* JYFBasic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JYFBasic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		011270F520410CEA002E7531 /* JYFBasic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYFBasic.h; sourceTree = "<group>"; };
+		011270F620410CEA002E7531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0112710020410D19002E7531 /* JYFBasic.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JYFBasic.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		0111C3B92040FB4E0051F223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011270FA20410CEA002E7531 /* JYFBasic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		011270EF20410CEA002E7531 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,7 +78,9 @@
 		0111C3B32040FB4E0051F223 = {
 			isa = PBXGroup;
 			children = (
+				0112710020410D19002E7531 /* JYFBasic.podspec */,
 				0111C3BE2040FB4E0051F223 /* JYFBasicDemo */,
+				011270F420410CEA002E7531 /* JYFBasic */,
 				0111C3BD2040FB4E0051F223 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,7 +88,8 @@
 		0111C3BD2040FB4E0051F223 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0111C3BC2040FB4E0051F223 /* JYFBasic.app */,
+				0111C3BC2040FB4E0051F223 /* JYFBasicDemo.app */,
+				011270F320410CEA002E7531 /* JYFBasic.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,16 +107,56 @@
 			path = JYFBasicDemo;
 			sourceTree = "<group>";
 		};
+		011270F420410CEA002E7531 /* JYFBasic */ = {
+			isa = PBXGroup;
+			children = (
+				011270F520410CEA002E7531 /* JYFBasic.h */,
+				011270F620410CEA002E7531 /* Info.plist */,
+			);
+			path = JYFBasic;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		011270F020410CEA002E7531 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				011270F720410CEA002E7531 /* JYFBasic.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		0111C3BB2040FB4E0051F223 /* JYFBasic */ = {
+		0111C3BB2040FB4E0051F223 /* JYFBasicDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0111C3CE2040FB4E0051F223 /* Build configuration list for PBXNativeTarget "JYFBasic" */;
+			buildConfigurationList = 0111C3CE2040FB4E0051F223 /* Build configuration list for PBXNativeTarget "JYFBasicDemo" */;
 			buildPhases = (
 				0111C3B82040FB4E0051F223 /* Sources */,
 				0111C3B92040FB4E0051F223 /* Frameworks */,
 				0111C3BA2040FB4E0051F223 /* Resources */,
+				011270FF20410CEA002E7531 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				011270F920410CEA002E7531 /* PBXTargetDependency */,
+			);
+			name = JYFBasicDemo;
+			productName = JYFBasic;
+			productReference = 0111C3BC2040FB4E0051F223 /* JYFBasicDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		011270F220410CEA002E7531 /* JYFBasic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 011270FC20410CEA002E7531 /* Build configuration list for PBXNativeTarget "JYFBasic" */;
+			buildPhases = (
+				011270EE20410CEA002E7531 /* Sources */,
+				011270EF20410CEA002E7531 /* Frameworks */,
+				011270F020410CEA002E7531 /* Headers */,
+				011270F120410CEA002E7531 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,8 +164,8 @@
 			);
 			name = JYFBasic;
 			productName = JYFBasic;
-			productReference = 0111C3BC2040FB4E0051F223 /* JYFBasic.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 011270F320410CEA002E7531 /* JYFBasic.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -95,6 +178,10 @@
 				ORGANIZATIONNAME = jiangyunfeng;
 				TargetAttributes = {
 					0111C3BB2040FB4E0051F223 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					011270F220410CEA002E7531 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
@@ -113,7 +200,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0111C3BB2040FB4E0051F223 /* JYFBasic */,
+				0111C3BB2040FB4E0051F223 /* JYFBasicDemo */,
+				011270F220410CEA002E7531 /* JYFBasic */,
 			);
 		};
 /* End PBXProject section */
@@ -129,6 +217,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		011270F120410CEA002E7531 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0112710120410D19002E7531 /* JYFBasic.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,7 +237,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		011270EE20410CEA002E7531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		011270F920410CEA002E7531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 011270F220410CEA002E7531 /* JYFBasic */;
+			targetProxy = 011270F820410CEA002E7531 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0111C3C32040FB4E0051F223 /* Main.storyboard */ = {
@@ -300,6 +411,54 @@
 			};
 			name = Release;
 		};
+		011270FD20410CEA002E7531 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2UDNR4WTGT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JYFBasic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autodesk.JYFBasic;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		011270FE20410CEA002E7531 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2UDNR4WTGT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JYFBasic/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autodesk.JYFBasic;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -312,11 +471,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0111C3CE2040FB4E0051F223 /* Build configuration list for PBXNativeTarget "JYFBasic" */ = {
+		0111C3CE2040FB4E0051F223 /* Build configuration list for PBXNativeTarget "JYFBasicDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0111C3CF2040FB4E0051F223 /* Debug */,
 				0111C3D02040FB4E0051F223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		011270FC20410CEA002E7531 /* Build configuration list for PBXNativeTarget "JYFBasic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				011270FD20410CEA002E7531 /* Debug */,
+				011270FE20410CEA002E7531 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
