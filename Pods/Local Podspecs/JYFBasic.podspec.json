@@ -15,7 +15,7 @@
     "git": "https://github.com/554994782/JYFBasic.git",
     "branch": "develop"
   },
-  "source_files": "JYFBasic/*.swift",
+  "source_files": "JYFBasic/*.{h,swift,c,m}",
   "public_header_files": "JYFBasic/JYFBasic.h",
   "subspecs": [
     {

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "JYFBasic.h"
 
 FOUNDATION_EXPORT double JYFBasicVersionNumber;
 FOUNDATION_EXPORT const unsigned char JYFBasicVersionString[];
