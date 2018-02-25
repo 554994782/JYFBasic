@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C44230B3FDA453620E67075EE69949D /* JYFAppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14052F81873A516C30943A429BE9936 /* JYFAppInfo.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		12CBDCCFC53FBFF77F93C1F175860D57 /* Pods-JYFBasicDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B52881428929A468EF06CB4FE4A19F4 /* Pods-JYFBasicDemo-dummy.m */; };
-		151F72C1E656A3AF731F5F6FBC66FCEF /* ESAppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002900489B7E8FEA82D1A6A02B596192 /* ESAppInfo.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2A7EA81189CE2301E5E1A324D3E46532 /* Pods-JYFBasicDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDEF6C33A4A6A8627FEEEB4DCB31CE08 /* Pods-JYFBasicDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2ADF94F2847A889653909BEFB26368ED /* JYFBasic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A49B8F787176D4424CE60408AA0E4B /* JYFBasic-dummy.m */; };
 		2E178906538EABF43EE9DBBBF870F385 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		3B6FA5A6ECC60E262EF9940E0157F46B /* SwiftyBeaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9F8D7177BC388751F1437FC566B2ED /* SwiftyBeaver.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		59DFAFA285EEC2E142AA25849B68EBCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5F6F8EE8EB93088082EBFC18E4C40382 /* SwiftyBeaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5FD942A32131810ABF61654FBA03F8 /* SwiftyBeaver.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		70CCF470CDB5D32D9F95E3B7B2B1CD64 /* JYFBasic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CDBA438156F88C82B6707D64B34DDA /* JYFBasic-dummy.m */; };
-		881691DA97EA2F4FDCAD005ADAFAE309 /* ESDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDFC60EC6EDFD03B4454F99F39D5ABC /* ESDevice.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		B7DB79E54A07ECDC714F0A68B8D0F425 /* JYFBasic.h in Headers */ = {isa = PBXBuildFile; fileRef = EE41CF4107654522FD23A8D91B66E3B3 /* JYFBasic.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F03C9035736B8CEA06579956DF5C5B6E /* JYFBasic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87B0EB293EFAD91660FF685A7B762E90 /* JYFBasic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F2BE891216BA1A87A575EBBFA5B329F /* JYFDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EF213E9DD34DB5E20B3FD60B5F7306F /* JYFDevice.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B7DB79E54A07ECDC714F0A68B8D0F425 /* JYFBasic.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E207FD948D0C542184D1747F87A307 /* JYFBasic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F03C9035736B8CEA06579956DF5C5B6E /* JYFBasic-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE3FC2B4D5CE51521A4B2F2447CB18C5 /* JYFBasic-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,30 +30,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		002900489B7E8FEA82D1A6A02B596192 /* ESAppInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESAppInfo.swift; path = JYFBasic/ESAppInfo.swift; sourceTree = "<group>"; };
+		0B038B5EADA536454E4AA3F5AEEEA235 /* JYFBasic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYFBasic-prefix.pch"; sourceTree = "<group>"; };
+		1C845ECC8F102AD1BE9CE1001C023F96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CCC1511405F3A912655491627969175 /* Pods-JYFBasicDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYFBasicDemo.release.xcconfig"; sourceTree = "<group>"; };
-		1CDFC60EC6EDFD03B4454F99F39D5ABC /* ESDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESDevice.swift; path = JYFBasic/ESDevice.swift; sourceTree = "<group>"; };
+		2541014F4E0366D0A472BA51D6D6FA2D /* JYFBasic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JYFBasic.xcconfig; sourceTree = "<group>"; };
 		28F794822BDA5F386761BCCF75343175 /* Pods-JYFBasicDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JYFBasicDemo.modulemap"; sourceTree = "<group>"; };
 		2B52881428929A468EF06CB4FE4A19F4 /* Pods-JYFBasicDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JYFBasicDemo-dummy.m"; sourceTree = "<group>"; };
+		2E9F8D7177BC388751F1437FC566B2ED /* SwiftyBeaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyBeaver.swift; path = JYFBasic/SwiftyBeaver.swift; sourceTree = "<group>"; };
 		3DB79028E4D88A142F38884C426A2CC0 /* JYFBasic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JYFBasic.framework; path = JYFBasic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E207FD948D0C542184D1747F87A307 /* JYFBasic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JYFBasic.h; path = JYFBasic/JYFBasic.h; sourceTree = "<group>"; };
 		44629520AC383CE7692BD160BAD53156 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A66E4664C48865287ADFBD56F7FE96D /* Pods-JYFBasicDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYFBasicDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		5B008E2CD8B609FFF5EDB2A40D6C45CE /* Pods-JYFBasicDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JYFBasicDemo-frameworks.sh"; sourceTree = "<group>"; };
-		60CDBA438156F88C82B6707D64B34DDA /* JYFBasic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JYFBasic-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		87B0EB293EFAD91660FF685A7B762E90 /* JYFBasic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYFBasic-umbrella.h"; sourceTree = "<group>"; };
 		8AD0F85BFD0DE21DF46004B4C7A2F2A1 /* Pods-JYFBasicDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JYFBasicDemo-resources.sh"; sourceTree = "<group>"; };
-		8C48DF6F44AC0BB760C02FE28EB54BC4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E5FD942A32131810ABF61654FBA03F8 /* SwiftyBeaver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyBeaver.swift; path = JYFBasic/SwiftyBeaver.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EF213E9DD34DB5E20B3FD60B5F7306F /* JYFDevice.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JYFDevice.swift; path = JYFBasic/JYFDevice.swift; sourceTree = "<group>"; };
 		A28501F24EEF5EC83147BF6DF866B14E /* Pods-JYFBasicDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JYFBasicDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AE375564D54E1BC15FC267D3DE1A6590 /* Pods_JYFBasicDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JYFBasicDemo.framework; path = "Pods-JYFBasicDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C72DFD964829A402FBC826E044A60631 /* JYFBasic-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYFBasic-prefix.pch"; sourceTree = "<group>"; };
+		AE3FC2B4D5CE51521A4B2F2447CB18C5 /* JYFBasic-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYFBasic-umbrella.h"; sourceTree = "<group>"; };
+		B4A49B8F787176D4424CE60408AA0E4B /* JYFBasic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JYFBasic-dummy.m"; sourceTree = "<group>"; };
+		D0FBEEF27DF7376A4C9DF21BC91E1FF7 /* JYFBasic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JYFBasic.modulemap; sourceTree = "<group>"; };
 		D126A052CAE80C0DA26BADB0B54F11BD /* Pods-JYFBasicDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYFBasicDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		E3C6CB86F5B07DB48D018A0E2C7D0F57 /* JYFBasic.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JYFBasic.xcconfig; sourceTree = "<group>"; };
-		EA385D9F238EE236ED3BA531F7E0533F /* JYFBasic.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JYFBasic.modulemap; sourceTree = "<group>"; };
+		D14052F81873A516C30943A429BE9936 /* JYFAppInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JYFAppInfo.swift; path = JYFBasic/JYFAppInfo.swift; sourceTree = "<group>"; };
 		EDEF6C33A4A6A8627FEEEB4DCB31CE08 /* Pods-JYFBasicDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JYFBasicDemo-umbrella.h"; sourceTree = "<group>"; };
-		EE41CF4107654522FD23A8D91B66E3B3 /* JYFBasic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JYFBasic.h; path = JYFBasic/JYFBasic.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,15 +76,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		34343F6F9A9D4735056771DFA0C0B4A8 /* Support Files */ = {
+		33FBCF6B764550077DA589401E5DACB4 /* JYFBasic */ = {
 			isa = PBXGroup;
 			children = (
-				8C48DF6F44AC0BB760C02FE28EB54BC4 /* Info.plist */,
-				EA385D9F238EE236ED3BA531F7E0533F /* JYFBasic.modulemap */,
-				E3C6CB86F5B07DB48D018A0E2C7D0F57 /* JYFBasic.xcconfig */,
-				60CDBA438156F88C82B6707D64B34DDA /* JYFBasic-dummy.m */,
-				C72DFD964829A402FBC826E044A60631 /* JYFBasic-prefix.pch */,
-				87B0EB293EFAD91660FF685A7B762E90 /* JYFBasic-umbrella.h */,
+				D14052F81873A516C30943A429BE9936 /* JYFAppInfo.swift */,
+				42E207FD948D0C542184D1747F87A307 /* JYFBasic.h */,
+				9EF213E9DD34DB5E20B3FD60B5F7306F /* JYFDevice.swift */,
+				2E9F8D7177BC388751F1437FC566B2ED /* SwiftyBeaver.swift */,
+				4BF89CEC3D374BA2401C6C732120FE3C /* Support Files */,
+			);
+			name = JYFBasic;
+			path = JYFBasic;
+			sourceTree = "<group>";
+		};
+		4BF89CEC3D374BA2401C6C732120FE3C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C845ECC8F102AD1BE9CE1001C023F96 /* Info.plist */,
+				D0FBEEF27DF7376A4C9DF21BC91E1FF7 /* JYFBasic.modulemap */,
+				2541014F4E0366D0A472BA51D6D6FA2D /* JYFBasic.xcconfig */,
+				B4A49B8F787176D4424CE60408AA0E4B /* JYFBasic-dummy.m */,
+				0B038B5EADA536454E4AA3F5AEEEA235 /* JYFBasic-prefix.pch */,
+				AE3FC2B4D5CE51521A4B2F2447CB18C5 /* JYFBasic-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/JYFBasic";
@@ -101,23 +114,10 @@
 			);
 			sourceTree = "<group>";
 		};
-		876795DDAC152E7313CAF73FF2C1ADAB /* JYFBasic */ = {
-			isa = PBXGroup;
-			children = (
-				002900489B7E8FEA82D1A6A02B596192 /* ESAppInfo.swift */,
-				1CDFC60EC6EDFD03B4454F99F39D5ABC /* ESDevice.swift */,
-				EE41CF4107654522FD23A8D91B66E3B3 /* JYFBasic.h */,
-				8E5FD942A32131810ABF61654FBA03F8 /* SwiftyBeaver.swift */,
-				34343F6F9A9D4735056771DFA0C0B4A8 /* Support Files */,
-			);
-			name = JYFBasic;
-			path = JYFBasic;
-			sourceTree = "<group>";
-		};
 		92953085830951A28BFDCB0B0F21A786 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				876795DDAC152E7313CAF73FF2C1ADAB /* JYFBasic */,
+				33FBCF6B764550077DA589401E5DACB4 /* JYFBasic */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -200,7 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31341438E4CBE262F22C4557BA10EE9D /* Build configuration list for PBXNativeTarget "JYFBasic" */;
 			buildPhases = (
-				C50EEDA55E4A366B71F4E749D137834E /* Sources */,
+				32A0B19416329BCCCA8AEF21DEB29A54 /* Sources */,
 				10B9F0C1CD48ABB1270280503BC9B938 /* Frameworks */,
 				1E7E7C087428CC04197DCAACCFDB5E16 /* Headers */,
 			);
@@ -259,22 +259,22 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		32A0B19416329BCCCA8AEF21DEB29A54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C44230B3FDA453620E67075EE69949D /* JYFAppInfo.swift in Sources */,
+				2ADF94F2847A889653909BEFB26368ED /* JYFBasic-dummy.m in Sources */,
+				6F2BE891216BA1A87A575EBBFA5B329F /* JYFDevice.swift in Sources */,
+				3B6FA5A6ECC60E262EF9940E0157F46B /* SwiftyBeaver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		48D1040CA8F8CEC3B55D250CF84317F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				12CBDCCFC53FBFF77F93C1F175860D57 /* Pods-JYFBasicDemo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C50EEDA55E4A366B71F4E749D137834E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				151F72C1E656A3AF731F5F6FBC66FCEF /* ESAppInfo.swift in Sources */,
-				881691DA97EA2F4FDCAD005ADAFAE309 /* ESDevice.swift in Sources */,
-				70CCF470CDB5D32D9F95E3B7B2B1CD64 /* JYFBasic-dummy.m in Sources */,
-				5F6F8EE8EB93088082EBFC18E4C40382 /* SwiftyBeaver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +292,7 @@
 /* Begin XCBuildConfiguration section */
 		349F8ADEBF374C114E40A0536D2D5C6C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3C6CB86F5B07DB48D018A0E2C7D0F57 /* JYFBasic.xcconfig */;
+			baseConfigurationReference = 2541014F4E0366D0A472BA51D6D6FA2D /* JYFBasic.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -393,7 +393,7 @@
 		};
 		9BF3E940323056F7DE32D05904795C6C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3C6CB86F5B07DB48D018A0E2C7D0F57 /* JYFBasic.xcconfig */;
+			baseConfigurationReference = 2541014F4E0366D0A472BA51D6D6FA2D /* JYFBasic.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
