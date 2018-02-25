@@ -1,5 +1,5 @@
 //
-//  ESDevice.swift
+//  JYFDevice.swift
 //  ESBasic
 //
 //  Created by jiang on 2018/1/24.
@@ -19,9 +19,9 @@ public let DECORATION_SEGMENT_HEIGHT = 40
 public let BOTTOM_SAFEAREA_HEIGHT = (STATUSBAR_HEIGHT == 44) ? 17 : 0
 
 
-public struct ESDevice {
+public struct JYFDevice {
     
-    public enum ESDeviceSizeType: String {
+    public enum JYFDeviceSizeType: String {
         case Unknow
         case Iphone4
         case Iphone5
@@ -44,20 +44,20 @@ public struct ESDevice {
         }
     }
     
-    public static func deviceSizeType() -> ESDeviceSizeType {
+    public static func deviceSizeType() -> JYFDeviceSizeType {
         switch (SCREEN_WIDTH, SCREEN_HEIGHT) {
         case (320, 480):
-            return ESDeviceSizeType.Iphone4
+            return JYFDeviceSizeType.Iphone4
         case (320, 568):// 5/5s/5c/se
-            return ESDeviceSizeType.Iphone5
+            return JYFDeviceSizeType.Iphone5
         case (375, 667):// 6/6s/7s/8
-            return ESDeviceSizeType.Iphone6And7And8
+            return JYFDeviceSizeType.Iphone6And7And8
         case (414, 736)://6p/6sp/7p/8p
-            return ESDeviceSizeType.IphonePlus
+            return JYFDeviceSizeType.IphonePlus
         case (375, 812):
-            return ESDeviceSizeType.IphoneX
+            return JYFDeviceSizeType.IphoneX
         default:
-            return ESDeviceSizeType.Unknow
+            return JYFDeviceSizeType.Unknow
         }
     }
     

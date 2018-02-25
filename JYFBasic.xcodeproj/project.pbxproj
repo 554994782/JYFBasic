@@ -17,8 +17,8 @@
 		011270FB20410CEA002E7531 /* JYFBasic.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 011270F320410CEA002E7531 /* JYFBasic.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0112710120410D19002E7531 /* JYFBasic.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 0112710020410D19002E7531 /* JYFBasic.podspec */; };
 		0112710520411C5C002E7531 /* SwiftyBeaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0112710220411C5C002E7531 /* SwiftyBeaver.swift */; };
-		0112710620411C5C002E7531 /* ESDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0112710320411C5C002E7531 /* ESDevice.swift */; };
-		0112710720411C5C002E7531 /* ESAppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0112710420411C5C002E7531 /* ESAppInfo.swift */; };
+		0112710620411C5C002E7531 /* JYFDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0112710320411C5C002E7531 /* JYFDevice.swift */; };
+		0112710720411C5C002E7531 /* JYFAppInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0112710420411C5C002E7531 /* JYFAppInfo.swift */; };
 		8B8F90E3DC27BCDDAE7F66C9 /* Pods_JYFBasicDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B7BB6C4BC04C4C26D63215 /* Pods_JYFBasicDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,8 +59,8 @@
 		011270F620410CEA002E7531 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0112710020410D19002E7531 /* JYFBasic.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JYFBasic.podspec; sourceTree = "<group>"; };
 		0112710220411C5C002E7531 /* SwiftyBeaver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyBeaver.swift; sourceTree = "<group>"; };
-		0112710320411C5C002E7531 /* ESDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESDevice.swift; sourceTree = "<group>"; };
-		0112710420411C5C002E7531 /* ESAppInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ESAppInfo.swift; sourceTree = "<group>"; };
+		0112710320411C5C002E7531 /* JYFDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYFDevice.swift; sourceTree = "<group>"; };
+		0112710420411C5C002E7531 /* JYFAppInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JYFAppInfo.swift; sourceTree = "<group>"; };
 		1EE1670DD6D1A44757AC73B4 /* Pods-JYFBasicDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYFBasicDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYFBasicDemo/Pods-JYFBasicDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C360E42213D9B24D15967FA4 /* Pods-JYFBasicDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYFBasicDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JYFBasicDemo/Pods-JYFBasicDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		D6B7BB6C4BC04C4C26D63215 /* Pods_JYFBasicDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JYFBasicDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,8 +125,8 @@
 			children = (
 				011270F520410CEA002E7531 /* JYFBasic.h */,
 				011270F620410CEA002E7531 /* Info.plist */,
-				0112710420411C5C002E7531 /* ESAppInfo.swift */,
-				0112710320411C5C002E7531 /* ESDevice.swift */,
+				0112710420411C5C002E7531 /* JYFAppInfo.swift */,
+				0112710320411C5C002E7531 /* JYFDevice.swift */,
 				0112710220411C5C002E7531 /* SwiftyBeaver.swift */,
 			);
 			path = JYFBasic;
@@ -332,9 +332,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0112710720411C5C002E7531 /* ESAppInfo.swift in Sources */,
+				0112710720411C5C002E7531 /* JYFAppInfo.swift in Sources */,
 				0112710520411C5C002E7531 /* SwiftyBeaver.swift in Sources */,
-				0112710620411C5C002E7531 /* ESDevice.swift in Sources */,
+				0112710620411C5C002E7531 /* JYFDevice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
