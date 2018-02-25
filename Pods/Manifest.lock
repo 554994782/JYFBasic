@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   JYFBasic:
-    :commit: 023fd03d9d054b02597e3448dff8d27f70f90cdd
+    :commit: d43503cede2d0893e14f36a08b572bd02d176775
     :git: https://github.com/554994782/JYFBasic.git
 
 SPEC CHECKSUMS:
